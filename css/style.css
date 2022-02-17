@@ -71,7 +71,10 @@ a {
 a:visited {
     color: hsl(219, 83%, 53%);
 }
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 320px) {
+    body {
+      height: 100vh;  
+    }
     .card {
       top: 275px
     }
