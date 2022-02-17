@@ -76,6 +76,9 @@ a:visited {
       height: 100vh;  
     }
     .card {
-      top: 275px
+      top: 285px
+    }
+    .attribution {
+      top: 580px;
     }
 }
