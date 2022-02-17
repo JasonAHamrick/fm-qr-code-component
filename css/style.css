@@ -15,24 +15,20 @@ html {
 body {
     background-color: hsl(212, 45%, 89%);
     font-family: 'outfit', sans-serif;
-}
-
-.content {
-    width: 100vw;
-    height: 100vh;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
     background-color: hsl(0, 0%, 100%);
     position: relative;
     width: 320px;
-    margin: auto;
-    top: 50%;
-    transform: translate(0, -50%);
     border-radius: 20px;
     padding: 15px;
     text-align: center;
-    box-shadow: 2px 2px 40px hsla(219, 15%, 55%, 0.3);
+    box-shadow: 2px 2px 30px hsla(219, 15%, 55%, 0.35);
 }
 
 .card img {
@@ -61,8 +57,7 @@ body {
 
 .attribution {
     padding: 5px;
-    width: 100vw;
-    font-size: 13px;
+    font-size: 12px;
     position: absolute;
     text-align: center;
     bottom: 0px;
