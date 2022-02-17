@@ -65,4 +65,9 @@ body {
 
 a {
     text-decoration: none;
+    color: hsl(219, 83%, 53%);
+}
+
+a:visited {
+    color: hsl(219, 83%, 53%);
 }
